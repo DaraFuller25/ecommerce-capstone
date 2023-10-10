@@ -1,0 +1,23 @@
+.bubble {
+    background-color: #e6a8ce;
+    border: 2px solid #eef3ee;
+    color: black;
+    padding: 70px;
+    font-size: 80px;
+}
+
+.begin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 17px;
+    font-size: 20px;
+
+}
