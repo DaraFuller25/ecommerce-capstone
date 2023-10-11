@@ -21,3 +21,10 @@
     font-size: 20px;
 
 }
+
+div{
+    background-color: #e6a8ce;
+    border: #e6a8ce;
+    color: #e6a8ce;
+    padding: 70px;
+}
