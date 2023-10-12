@@ -33,3 +33,12 @@ img {
     display: inline-flex;
     justify-content: space-around;
 }
+
+p{
+    font-style: italic;
+    font-size: 25px;
+}
+
+h1{
+    font-style: italic;
+}
