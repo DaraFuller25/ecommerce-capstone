@@ -24,3 +24,13 @@
 *{
     background-image: url()
 }
+
+footer {
+    background-color: #e6a8ce;
+    border: 2px solid #eef3ee;
+    color: black;
+}
+footer {
+font-size: 35px;
+font-style: italic;
+}

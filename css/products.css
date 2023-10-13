@@ -21,3 +21,12 @@
     font-size: 20px;
 
 }
+
+card-body { 
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+    gap: 2rem;
+    
+
+}
