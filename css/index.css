@@ -29,7 +29,9 @@
     float: right;
 }   
 
-img {
+img { 
+    
+
     display: inline-flex;
     justify-content: space-around;
 }
@@ -41,4 +43,8 @@ p{
 
 h1{
     font-style: italic;
+}
+
+img {
+width: 300px;height: 300px;
 }

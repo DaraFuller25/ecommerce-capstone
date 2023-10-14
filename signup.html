@@ -20,17 +20,20 @@
         <h1 class="bubble">Protein World Sweets & Treats</h1>
     </header>
 
-    <nav class="next">
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="signup.html">signup</a></li>
-        <li> <a href="login.html">login</a></li>
-        <li> <a href="products.html">products</a></li>
-        <li><a href="checkout.html">checkout</a></li>
+    <nav>
+        <ul class="list-group-item">
+          <li class="list-inline-item"> <a href="index.html">Home</a></li>
+          <li class="list-inline-item"> <a href="signup.html">signup</a></li>
+          <li class="list-inline-item"> <a href="login.html">login</a></li>
+          <li class="list-inline-item"><a href="products.html">products</a></li>
+          <li class="list-inline-item"> <a href="checkout.html">checkout</a> </li>
+        </ul>
+      </nav>
         <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
-    </nav>
+    
 
     <main>
         <section class="vh-100 gradient-custom">
@@ -46,16 +49,16 @@
                                         <div class="col-md-6 mb-4">
 
                                             <div class="form-outline">
-                                                <input type="text" id="firstName"
-                                                    class="form-control form-control-lg" />
-                                                <label class="form-label" for="firstName">First Name</label>
+                                                <input type="text"
+                                                    class="form-control form-control-lg">
+                                                <label class="form-label">First Name</label>
                                             </div>
 
                                         </div>
                                         <div class="col-md-6 mb-4">
 
                                             <div class="form-outline">
-                                                <input type="text" id="lastName" class="form-control form-control-lg" />
+                                                <input type="text" id="lastName" class="form-control form-control-lg">
                                                 <label class="form-label" for="lastName">Last Name</label>
                                             </div>
 
@@ -66,9 +69,9 @@
                                         <div class="col-md-6 mb-4 d-flex align-items-center">
 
                                             <div class="form-outline datepicker w-100">
-                                                <input type="text" class="form-control form-control-lg"
-                                                    id="birthdayDate" />
-                                                <label for="birthdayDate" class="form-label">Birthday</label>
+                                                <input type="text" class="form-control form-control-lg">
+
+                                                <label class="form-label">Birthday</label>
                                             </div>
 
                                         </div>
@@ -77,21 +80,18 @@
                                             <h6 class="mb-2 pb-1">Gender: </h6>
 
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="femaleGender" value="option1" checked />
-                                                <label class="form-check-label" for="femaleGender">Female</label>
+                                                <input class="form-check-input" type="radio">
+                                                <label class="form-check-label">Female</label>
                                             </div>
 
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="maleGender" value="option2" />
-                                                <label class="form-check-label" for="maleGender">Male</label>
+                                                <input class="form-check-input" type="radio">
+                                                <label class="form-check-label">Male</label>
                                             </div>
 
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="otherGender" value="option3" />
-                                                <label class="form-check-label" for="otherGender">Other</label>
+                                                <input class="form-check-input" type="radio">
+                                                <label class="form-check-label">Other</label>
                                             </div>
 
                                         </div>
@@ -101,44 +101,44 @@
                                         <div class="col-md-6 mb-4 pb-2">
 
                                             <div class="form-outline">
-                                                <input type="email" id="emailAddress"
-                                                    class="form-control form-control-lg" />
-                                                <label class="form-label" for="emailAddress">Email</label>
+                                                <input type="email"
+                                                    class="form-control form-control-lg">
+                                                <label class="form-label">Email</label>
                                             </div>
 
                                         </div>
                                         <div class="col-md-6 mb-4 pb-2">
 
                                             <div class="form-outline">
-                                                <input type="tel" id="phoneNumber"
-                                                    class="form-control form-control-lg" />
-                                                <label class="form-label" for="phoneNumber">Phone Number</label>
+                                                <input type="tel" 
+                                                    class="form-control form-control-lg">
+                                                <label class="form-label">Phone Number</label>
                                             </div>
 
                                             <p><strong>How did you hear about us?</strong></p>
           
                                             <div class="form-check">
-                                               <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                        <label class="form-check-label" for="flexCheckChecked">
+                                               <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">
                                                  Social Media
                                                </label>
                                              </div>
                                    
                                    <div class="form-check">
-                                               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                               <label class="form-check-label" for="flexCheckDefault">
+                                               <input class="form-check-input" type="checkbox">
+                                               <label class="form-check-label">
                                                  Friends & Family
                                                </label>
                                              </div>
                                              <div class="form-check">
-                                               <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                        <label class="form-check-label" for="flexCheckChecked">
+                                               <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">
                                                  Streaming Service Ads
                                                </label>
                                              </div>
                                              <div class="form-check">
-                                               <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                        <label class="form-check-label" for="flexCheckChecked">
+                                               <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">
                                                  Other
                                                </label>
                                              </div>
@@ -148,15 +148,15 @@
 
 
                                             <div class="mt-4 pt-2">
-                                                <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
+                                                <input class="btn btn-primary btn-lg" type="submit" value="Submit">
 
                                                 </div> 
 
-                                                
+                                                </div>
                                     
                                             </div>
-
-                                </form>
+                                        </form>
+                                
                             </div>
                         </div>
                     </div>
